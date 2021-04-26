@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: rgb(36, 129, 136);
+}
+nav ul il {
+    display: inline;
+    direction: initial;
+    margin: 45px;
+    color: rgb(36, 129, 136);
+    background-color: rgba(128, 128, 128, 0.596);
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(36, 129, 136);
+}
+body{
+   background-color:rgb(255, 255, 255)
+
+}
+p {
+    color: rgb(36, 129, 136);
+    font-size: 35 px;
+    font-weight: bold;
+}
