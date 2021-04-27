@@ -22,3 +22,9 @@ p {
     font-size: 35 px;
     font-weight: bold;
 }
+
+h2{
+    background-color: rgb(36, 129, 136);
+    direction: initial;
+    color: white;
+}
