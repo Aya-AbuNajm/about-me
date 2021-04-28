@@ -8,21 +8,25 @@ let mark=0;
 
 let age = prompt('is my old less than 30 ?')
 console.log(age);
-switch (age.toLowerCase()) {
-    case 'yes':
-    case 'y':
-        alert('yes i\'m young')
-        mark++;
-       break;
-    case 'no' :
-    case 'n': 
-    console.log('is my old less than 30? the answer is yes');
-    alert('the answer is wrong');
-        break;
-        default:
-            alert('please answer yes or no')
+function ageQuestion(){
+    switch (age.toLowerCase()) {
+        case 'yes':
+        case 'y':
+            alert('yes i\'m young')
+            mark++;
+           break;
+        case 'no' :
+        case 'n': 
+        console.log('is my old less than 30? the answer is yes');
+        alert('the answer is wrong');
             break;
+            default:
+                alert('please answer yes or no')
+                break;
+    }
 }
+ageQuestion();
+
 let breaking = prompt('Do I love romantic movie?')
 console.log(breaking);
 switch (breaking.toLowerCase()) {
