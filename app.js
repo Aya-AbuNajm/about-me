@@ -97,7 +97,6 @@ switch (book.toLowerCase()) {
 
 let LoopAya =4; 
 let stopMyLoop=false;
-alert('After This Message, we\'re going to play a quick game, \n Called GUESS-AboutMe, \n - Which is made up of 6 Questions that you will answer with NUMBERS only. \n - You will have 4 attempts each time. \n- I will give you a hint for each question');
 
 
 while ( stopMyLoop == false  && LoopAya!==0 )
@@ -142,239 +141,13 @@ while ( stopMyLoop == false  && LoopAya==0 )
 
 
 
-LoopAya =4; // 
-stopMyLoop=false;
-
-
-while ( stopMyLoop == false  && LoopAya!==0 )
-{
-    LoopAya--;
-    let userInput = Number(prompt('How much is my experience? \nHint: i am fresh graduate'));
-
-   
-    if (userInput > 0 && userInput <=1)
-    {
-        alert('so close');
-    }
-         else if ( userInput == 2)
-    {
-        alert('Correct Answer! ^^');
-        mark++; stopMyLoop=true; 
-    }
-
-    else if ( userInput >= 3 && userInput <= 4 )
-    {
-        alert('high');
-    }
-    else if ( userInput >= 5 && userInput <= 6 )
-    {
-        alert('too high');
-    }
-    else if ( userInput < -1 || userInput >7)
-    {
-        alert('Out of Range');
-    }
-    
-
-while ( stopMyLoop == false  && LoopAya==0 ) 
-{
- alert('Sorry you\'ve reached the number of attempts allowed: The correct answer is  :: 2 years ');
- stopMyLoop = true;
-}
-
-}
-
-
-
-LoopAya =4; 
-stopMyLoop=false;
-
-// Q3
-while ( stopMyLoop == false  && LoopAya!==0 )
-{
-    LoopAya--;
-    let userInput= Number(prompt('how old am i ?\nHint: Between 21 and 29'));
-
-   
-    if (userInput > 22 && userInput <=23)
-    {
-        alert('too low');
-    }
-    else if ( userInput == 24 || userInput == 25 )
-    {
-        alert('so close');
-    }
-    else if ( userInput == 26 )
-    {
-        alert('Correct Answer! ^^');
-        mark++; stopMyLoop=true; 
-    }
-
-    else if ( userInput >= 27 && userInput <= 28 )
-    {
-        alert('high');
-    }
-  
-    else if ( userInput < 21 || userInput> 29)
-    {
-        alert('Out of Range');
-    }
-    
-
-while ( stopMyLoop == false  && LoopAya==0 ) 
-{
- alert('Sorry you\'ve reached the number of attempts allowed: The correct answer is  :: 26 ');
- stopMyLoop = true;
-}
-
-}
-
-// reset the values to use it again
-LoopAya =4; // 
-stopMyLoop=false;
-
-// Q4
-while ( stopMyLoop == false  && LoopAya!==0 )
-{
-    LoopAya--;
-    let userInput= Number(prompt('How many uncle i have??\nHint: it\'s a big family'));
-
-   
-    if (userInput >= 1 && userInput <=2)
-    {
-        alert('too low');
-    }
-    else if ( userInput == 3 || userInput ==4  )
-    {
-        alert('so close');
-    }
-    else if ( userInput == 5 )
-    {
-        alert('Correct Answer! ^^');
-        mark++; stopMyLoop=true; 
-    }
-
-    else if ( userInput >= 6 && userInput <= 7 )
-    {
-        alert('high');
-    }
-    else if ( userInput >= 8 && userInput <= 9 )
-    {
-        alert('too high');
-    }
-  
-    else if ( userInput < 0 || userInput> 10)
-    {
-        alert('Out of Range');
-    }
-    
-
-while ( stopMyLoop == false  && LoopAya==0 ) // When the attempts end without a correct answer
-{
- alert('Sorry you\'ve reached the number of attempts allowed: The correct answer is  :: 5 ');
- stopMyLoop = true;
-}
-
-}
-
-
-// reset the values to use it again
-LoopAya =4; // 
-stopMyLoop=false;
-
-// Q5
-while ( stopMyLoop == false  && LoopAya!==0 )
-{
-    LoopAya--;
-    let userInput= Number(prompt('in any year i graduated?\nHint:between 2016-2021'));   
-    if (userInput >= 2015 && userInput <=2016)
-    {
-        alert('too low');
-    }
-     
-     else if ( userInput == 2017 || userInput == 2018 )
-    {
-        alert('so close');
-    }
-    else if ( userInput == 2019 ) // correct answer
-    {
-        alert('Correct Answer! ^^');
-        mark++; stopMyLoop=true; 
-    }
-
-    else if ( userInput >= 2020 && userInput <= 2021 )
-    {
-        alert('high');
-    }
-  
-    else if ( userInput < 2016 || userInput> 2022 ) // out of range
-    {
-        alert('Out of Range');
-    }
-    
-
-while ( stopMyLoop == false  && LoopAya==0 ) // When the attempts end without a correct answer
-{
- alert('Sorry you\'ve reached the number of attempts allowed: The correct answer is  :: 2019 ');
- stopMyLoop = true;
-}
-
-}
-
-LoopAya =4; 
-stopMyLoop=false;
-
-// Q6
-while ( stopMyLoop == false  && LoopAya!==0 )
-{
-    LoopAya--;
-    let userInput= Number(prompt('I joined the university in ?\nHINT: Between 2007-2016'));
-
-   
-    if (userInput >= 2008 && userInput <=2009)
-    {
-        alert('too low');
-    }
-    else if ( userInput >= 2010 && userInput <= 2011 )
-    {
-        alert(' close');
-    }
-    else if ( userInput == 2012 || userInput == 2013)
-    {
-        alert('so close');
-    }
-    else if ( userInput == 2014 ) // correct answer
-    {
-        alert('Correct Answer! ^^');
-        mark++; stopMyLoop=true; 
-    }
-
-    else if ( userInput >= 2015 && userInput <= 2016 )
-    {
-        alert('high');
-    }
-  
-    else if ( userInput < 2007 || userInput> 2017 ) // out of range
-    {
-        alert('Out of Range');
-    }
-    
-
-while ( stopMyLoop == false  && LoopAya==0 ) // When the attempts end without a correct answer
-{
- alert('Sorry you\'ve reached the number of attempts allowed: The correct answer is  :: 2014 ');
- stopMyLoop = true;
-}
-
-}
-
 
 
 
 LoopAya = 5;
 stopMyLoop = false;
 let myArr = ['ME BEFORE YOU','THE FAULT IN OUR STARS','the princess switch','Miracle in Cell No 7','wonder','joker','night school','home alone'];
-let userInput = prompt('Guess what is my favorite movie\nHINT:  \nMiracle in Cell No 7,the fault in our stars,\nme befor you ,\nthe princess switch,\nwonder,\nJoker,Night School '); 
+let userInput = prompt('Guess what is my favorite movie\nHINT:  \nMiracle in Cell No 7,\nthe fault in our stars,\nme befor you ,\nthe princess switch,\nwonder,\nJoker,Night School '); 
 
 
 
@@ -410,4 +183,4 @@ while ( LoopAya >= 0 && stopMyLoop == false )
       
 }
 
-console.log('goo job  ' + userName + '  your score is  '+ mark );
+console.log('good job  ' + userName + '  your score is  '+ mark +'/7' );
