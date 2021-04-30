@@ -5,7 +5,7 @@ console.log(' Hi ' + userName);
 alert(' Hi '+ userName +' welcome to my page ' )
 let mark=0;
 
-
+function Question1() {
 let age = prompt('is my old less than 30 ?')
 console.log(age);
 switch (age.toLowerCase()) {
@@ -22,7 +22,13 @@ switch (age.toLowerCase()) {
         default:
             alert('please answer yes or no')
             break;
-}
+}}
+
+
+ Question1();
+
+
+function Question2(){
 let breaking = prompt('Do I love romantic movie?')
 console.log(breaking);
 switch (breaking.toLowerCase()) {
@@ -39,7 +45,11 @@ switch (breaking.toLowerCase()) {
     default:
         alert('please answer yes or no')
         break;
-}
+}}
+ Question2();
+
+
+function Question3(){
 let calm = prompt('Do I love reading ?')
 console.log(calm);
 switch (calm.toLowerCase()) {
@@ -56,7 +66,13 @@ switch (calm.toLowerCase()) {
  default:
             alert('please answer yes or no')
             break;
-}
+}}
+
+ Question3();
+
+
+
+function Question4(){
 let dark = prompt('my major is programmer')
 console.log(dark);
 switch (dark.toLowerCase()) {
@@ -73,7 +89,12 @@ switch (dark.toLowerCase()) {
         console.log('my major is programmer? the answer is no');
         alert('please answer yes or no')
         break;
-}
+}}
+
+ Question4();
+
+
+function Question5(){
 let book = prompt('the swimming is one of my hobbies')
 console.log(book);
 switch (book.toLowerCase()) {
@@ -90,11 +111,11 @@ switch (book.toLowerCase()) {
     default:
         alert('please answer yes or no')
         break;
-}
+}}
 
+ Question5();
 
-
-
+function Question6(){
 let LoopAya =4; 
 let stopMyLoop=false;
 
@@ -136,16 +157,15 @@ while ( stopMyLoop == false  && LoopAya==0 )
  alert('Sorry you\'ve reached the number of attempts allowed: The correct answer is  :: 162 ');
  stopMyLoop = true;
 }
-
 }
+}
+ Question6();
 
 
 
-
-
-
-LoopAya = 5;
-stopMyLoop = false;
+function Question7(){
+let LoopAya = 5;
+let stopMyLoop = false;
 let myArr = ['ME BEFORE YOU','THE FAULT IN OUR STARS','the princess switch','Miracle in Cell No 7','wonder','joker','night school','home alone'];
 let userInput = prompt('Guess what is my favorite movie\nHINT:  \nMiracle in Cell No 7,\nthe fault in our stars,\nme befor you ,\nthe princess switch,\nwonder,\nJoker,Night School '); 
 
@@ -180,7 +200,10 @@ while ( LoopAya >= 0 && stopMyLoop == false )
            break;
       }
    }
-      
 }
+}
+
+ Question7();
+ alert('good job  ' + userName + '  your score is  '+ mark +'/7' );
 
 console.log('good job  ' + userName + '  your score is  '+ mark +'/7' );
